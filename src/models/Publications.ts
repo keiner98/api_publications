@@ -32,7 +32,7 @@ class Publications {
   tags: string[];
 
   @prop({ required: true })
-  type: "Normal" | "slideshow";
+  type: "Normal" | "Slideshow";
 
   @prop({ type: () => [Publication], required: true })
   publications: Publication[];
